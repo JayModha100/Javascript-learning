@@ -1,5 +1,5 @@
 function getComputerChoice() {
-  const random = Math.floor(Math.random() * 3);
+  const random = Math.floor(Math.random()*3);
   if (random === 0) return "rock";
   if (random === 1) return "paper";
   return "scissors";
